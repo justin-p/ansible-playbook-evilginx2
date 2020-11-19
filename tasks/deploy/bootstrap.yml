@@ -1,0 +1,24 @@
+---
+- include_role:
+    name: robertdebock.update_package_cache
+  tags: molecule-idempotence-notest
+- include_role:
+    name: robertdebock.bootstrap
+- include_role:
+    name: robertdebock.epel           
+- include_role:
+    name: robertdebock.update
+  vars:
+    update_reboot: no
+- include_role:
+    name: robertdebock.firewall
+  vars:
+    firewall_services:
+      - name: ssh
+      - name: http
+      - name: https
+- include_role:
+    name: robertdebock.hostname
+  vars:
+    hostname: "{{ server_hostname }}"
+    hostname_reboot: yes

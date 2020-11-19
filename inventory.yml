@@ -1,0 +1,6 @@
+---
+evilginx:
+  hosts:
+    1.2.3.4:
+      ansible_ssh_private_key_file: /home/justin-p/.ssh/root-gophish
+      ansible_user: root

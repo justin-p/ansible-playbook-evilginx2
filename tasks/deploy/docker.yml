@@ -1,0 +1,8 @@
+- include_role:
+    name: geerlingguy.docker
+- include_role:
+    name: geerlingguy.pip
+  vars:
+    pip_executable: pip3
+    pip_install_packages:
+      - name: docker

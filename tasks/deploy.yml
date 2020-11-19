@@ -1,0 +1,4 @@
+---
+- include_tasks: deploy/bootstrap.yml
+- include_tasks: deploy/docker.yml
+- include_tasks: deploy/evilginx.yml

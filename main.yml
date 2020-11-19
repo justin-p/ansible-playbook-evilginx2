@@ -1,0 +1,7 @@
+---
+- hosts: evilginx
+  vars_files:
+    - defaults/main.yml
+  tasks:
+    - import_tasks: tasks/requirements.yml
+    - include_tasks: tasks/deploy.yml
