@@ -1,8 +1,10 @@
 # ansible-playbook-evilginx2
 
-a W.I.P. Ansible playbook that deploys a containerized evilginx2 in a tmux session. Will probably be replaced with a role.
+a W.I.P. Ansible playbook that deploys a evilginx2 in a tmux session. 
 
 ## How to use
+
+### Ansible
 
 Will configure the following items to a existing host:
 
@@ -26,3 +28,7 @@ Will configure the following items to a existing host:
    - Set `server_hostname` to your desired hostname.
 3. Run Playbook
    - `ansible-playbook main.yml --inventory inventory.yml`
+
+### Ansible and Terraform
+
+TODO

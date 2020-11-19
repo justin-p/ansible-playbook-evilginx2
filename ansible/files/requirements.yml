@@ -16,9 +16,5 @@
   version: 3.2.8
 - name: robertdebock.hostname
   version: 2.0.7
-- name: geerlingguy.docker
-  version: 2.9.0
-- name: igor_mukhin.bash_aliases  
-  version: v1.1.0
-- name: robertdebock.git
-  version: 3.3.7
+- name: justin_p.evilginx2
+  version: 0.0.1
