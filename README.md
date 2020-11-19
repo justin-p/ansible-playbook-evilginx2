@@ -1,6 +1,6 @@
 # ansible-playbook-evilginx2
 
-W.I.P. Ansible playbooks that deploys a evilginx2 in a tmux session,  including the provision of hosts and DNS records using Terraform. 
+A W.I.P. collection of Ansible playbooks that deploys a evilginx2 in a tmux session, including the provision of hosts and DNS records using Terraform. 
 
 ## How to use
 
