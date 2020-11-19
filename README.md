@@ -27,7 +27,7 @@ Will configure the following items to a existing host:
 3. Run Playbook
    - `ansible-playbook main.yml --inventory inventory.yml`
 4. Connect to evilginx2
-   - `ssh root@IP`
+   - `ssh user@ip`
    - `tmux a`
 
 ### Ansible and Terraform
